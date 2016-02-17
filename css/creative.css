@@ -1,0 +1,92 @@
+/* Inserta tu codigo CSS aqui */
+.content{
+	margin-left: 60%;
+}
+header{
+	background: url('../img/header.jpg') no-repeat;
+	height: 100vh;
+	background-size: 100%;
+	background-position:100% 25%;
+}
+.menu{
+	opacity:0.8;
+	background-color:transparent;
+	color:white!important;
+	border-color:transparent;
+}
+.name{
+	padding-top:8%!important;
+	color:white;
+}
+.tb-1{
+	background-color: #f05f40;
+	height: 3px;
+	width:4%;
+	margin:3%;
+}
+.tx-1{
+	padding:1%;
+}
+.mg{
+	margin:auto!important;
+	float:none!important;
+	text-align:center;
+}
+.know{
+	border-radius: 10px;
+	background-color:#f05f40;
+	border-color:#f05f40;
+	margin:3%;
+}
+/*about*/
+.about{
+	background-color:#f05f40;
+	padding-bottom: 5%;
+}
+.tb-2{
+	background-color:white;
+	height: 3px;
+	width:4%;
+	margin:3%;
+}
+.lab{
+	padding-top: 3%;
+}
+.tx-w{
+	color:white;
+}
+.service .fa{
+ 	color:#f05f40;
+}
+.portafolio{
+	padding:3% 0 0;
+}
+.images img{
+	width:100%;
+}
+.ejmp{
+	width:100%;
+	padding:0 0;
+	margin:0 0;
+}
+.one{
+	padding:0 0;
+}
+.review{
+	background-color:#222222;
+	height: 10%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+.git{
+	background-color: white;
+	color:black;
+	border-radius:14px;
+	border-color:white;
+	padding-bottom: 2%;
+
+}
+.project{
+	color:white;
+	padding:1% 0 1%;
+}
