@@ -47,9 +47,9 @@
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav content tx-w">
               <li class="active"><a href="#">Sobre mí</a></li>
-              <li><a href="#"> servicios</a></li>
-              <li><a href="#"> Mis trabajos</a></li>
-              <li><a href="#"> Contactanos</a></li>
+              <li><a href="#service"> servicios</a></li>
+              <li><a href="#job"> Mis trabajos</a></li>
+              <li><a href="#contact"> Contactanos</a></li>
             </ul>
           </div>
         </nav>
@@ -60,7 +60,7 @@
                     <h2>HOLA, MI NOMBRE ES CODERS SOY CODER DE LABORATORIA</h2>
                     </div>
                     <div class="col-md-1 mg tb-1"></div>
-                    <div class="col-md-6 mg tx-1"><p>Estas interesado en desarrollar un sitio web o necesitas una fronted develeper, yo te puedo ayudar con los diferntes servicios que brindo</p></div>
+                    <div class="col-md-6 mg tx-1 sitio"><p>Estas interesado en desarrollar un sitio web o necesitas una fronted develeper, yo te puedo ayudar con los diferntes servicios que brindo</p></div>
                     <div class="col-md-12 mg">
                     <button  class=" btn know">CONOCE MÁS</button></div>
                 </div>
@@ -82,7 +82,7 @@
         </div>      
     </section>
 
-    <section class="service">
+    <section id="service" class="service">
         <div class="container text-center">
             <h2>SERVICIOS</h2>
             <div class="col-md-1 mg tb-1"></div>
@@ -120,11 +120,11 @@
                     <img class="img-responsive" src="img/portfolio/1.jpg" alt="">
                 </div>
 
-                <div class="imgcont col-lg-4 col-ms-12 col-xs-12">
+                <div class="imgcont col-lg-4 col-md-4 col-ms-12 col-xs-12">
                     <img class="img-responsive" src="img/portfolio/2.jpg" alt="">
                 </div>
 
-                <div class="imgcont col-lg-4 col-ms-12 col-xs-12">
+                <div class="imgcont col-lg-4 col-md-4 col-ms-12 col-xs-12">
                     <img class="img-responsive" src="img/portfolio/3.jpg" alt="">
                     <div class="cajax visible-xs">
                         <p>Categoria</p>
@@ -132,17 +132,17 @@
                     </div>
                 </div>
 
-                <div class="imgcont col-lg-4 col-ms-12 col-xs-12">
+                <div class="imgcont col-lg-4 col-md-4 col-ms-12 col-xs-12">
                     <img class="img-responsive" src="img/portfolio/4.jpg" alt="">
                 </div>
 
-                <div class="imgcont col-lg-4 col-ms-12 col-xs-12">
+                <div class="imgcont col-lg-4 col-md-4 col-ms-12 col-xs-12">
                     <img class="img-responsive" src="img/portfolio/5.jpg" alt="">
                 </div>
 
-                <div class="imgcont col-lg-4 col-ms-12 col-xs-12">
+                <div class="imgcont col-lg-4 col-md-4 col-ms-12 col-xs-12">
                     <img class="img-responsive" src="img/portfolio/6.jpg" alt="">
-                    <div class="cajax visible-xs caja-2">
+                    <div class="cajax visible-xs cajon">
                         <p>Categoria</p>
                         <h3>Nombre Proyecto</h3>
                     </div>
@@ -151,9 +151,9 @@
         </div>
     </section>
 
-    <section class="review">
-        <div class="container-fluid contener">
-            <div class="col-md-4 mg project">
+    <section id="job" class="review">
+        <div class="container-fluid coment">
+            <div class="col-md-4 col-sm-12 col-xs-12 mg project">
             Si quieres saber más de mi proyecto revisa mi github
             </div>
             <div class="col-md-2 mg">
@@ -163,22 +163,22 @@
     </section>
 
     <footer>
-        <div class="container text-center">
+        <div id="contact" class="container text-center">
             <h2>CONTÁCTAME</h2>
             <div class="col-md-1 mg tb-1"></div>
             <div class="row">
-                <div class="col-md-8 mg tx-1">
+                <div class="col-lg-8 col-md-8 col-md-10 col-xs-10 mg tx-1">
                     <p>¿Listo para empezar tu siquiente proyecto?¿Te gusta lo que has visto?Genial, dame una llamada o enviame un correo y te responderé lo más rápido que pueda!
                     </p>
                 </div>
-                <div class="col-md-6 mg">
-                    <div class="col-md-6">
-                        <i class="fa fa-phone fa-2x"> </i>
+                <div class="col-md-6 col-ms-10 col-xs-10 mg">
+                    <div class="col-md-6 col-ms-12 col-xs-12">
+                        <i class="fa fa-phone fa-3x"> </i>
                         <br>
                         <p>123-456-6789</p>
                     </div>
-                    <div class="col-md-6">
-                        <i class="fa fa-envelope-o fa-2x"> </i>
+                    <div class="col-md-6 col-ms-12 col-xs-12">
+                        <i class="fa fa-envelope-o fa-3x"> </i>
                         <br>
                         <p style="color:#f05f40">LyJ@laboratoria.la</p>
                     </div>
@@ -201,7 +201,9 @@
     <script src="js/wow.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    <script src="js/creative.js">
+    <img src="img/portfolio/2.jpg" onmouseover="this.src='img/portfolio/2.jpg';" onmouseover="this.src='img/portfolio/1.jpg';"/>
+    </script>
 
 </body>
 

@@ -8,10 +8,6 @@ header{
 	background-size: cover;
 	background-position:top center;
 }
-header p{
-	font-size:16px;
-	padding-top: 2%;
-}
 .navbar-default .navbar-nav>li>a {
     color: #eee;}
 .bl{
@@ -41,6 +37,9 @@ header p{
 }
 .tx-1{
 	padding:1%;
+}
+.sitio{
+	font-size: 22px;
 }
 .mg{
 	margin:auto!important;
@@ -78,9 +77,13 @@ header p{
 	margin: 0;
 	padding:0;
 }
-.contener{
-	height:150px;
-	padding-top: 2%;
+.coment{
+	height: 150px;
+	padding-top:2%;
+	font-size:16px;
+}
+.portafolio{
+	padding-top:2%;
 }
 .review{
 	background-color:#222222;
@@ -91,17 +94,24 @@ header p{
 	border-radius:14px;
 	border-color:white;
 	padding-bottom: 2%;
-
 }
 .project{
 	color:white;
 	padding:1% 0 1%;
+	font-size:18px;
 }
 .oculto{
   	width:0;
   	height:0;
   	padding:0;
   }
+footer i{
+	padding:2% 0 1%;
+}
+footer p{
+	padding:1%;
+	font-size: 17px;
+}
 /*media queries*/
 
 @media (max-width: 625px) {
@@ -128,9 +138,6 @@ header p{
     z-index: 3;
     background: rgba(240, 95, 64, 0.85);
   }
-  .caja-2{
-  	height:70%;
-  }
   .cajax p, h3{
     color: white;
     text-align: center;
@@ -140,9 +147,12 @@ header p{
     /* bottom: 0; */
     top: 33%;
 	}
+	.cajon{
+	height:70%;
+	}
 	.review{
 		padding: 10% 10%;
-		height:10%;
+		height:8%;
 	}
 	footer{
 		padding: 12% 7%;
