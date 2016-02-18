@@ -69,20 +69,12 @@ header{
 .service .fa{
  	color:#f05f40;
 }
-.portafolio{
-	padding:3% 0 0;
+/*portafolio*/
+.imgcont{
+	margin: 0;
+	padding:0;
 }
-.images img{
-	width:100%;
-}
-.ejmp{
-	width:100%;
-	padding:0 0;
-	margin:0 0;
-}
-.one{
-	padding:0 0;
-}
+
 .review{
 	height: 10%;
 	background-color:#222222;
@@ -122,16 +114,13 @@ header{
   }
   .cajax{
     position: absolute;
-    top: 50%;
+    top: 0%;
     /* left: 25%; */
     width: 100%;
     height: 100%;
     background: pink;
     z-index: 3;
     background: rgba(240, 95, 64, 0.85);
-  }
-  .caja-dos{
-  	height:70%;
   }
   .cajax p, h3{
     color: white;
